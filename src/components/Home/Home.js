@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../Footer/Footer";
-
+import Date from './Datepicker'
 function Header() {
   return (
     <>
@@ -54,7 +54,9 @@ function Header() {
 
       <Container className="Home_body">
         <Row className="body_booking">
-          <Col xs={12}></Col>
+          <Col xs={12}>
+         <Date/>
+          </Col>
         </Row>
         <Row>
           <Col className="body_txt">

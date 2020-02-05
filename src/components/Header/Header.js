@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import OurApartment from "../OurApartment/OurApartment";
+import Contact from "../Contact/Contact";
 function Header() {
   return (
     <>
@@ -20,8 +21,8 @@ function Header() {
                 <Link className="link" to="/Travel">
                   <li>Travel</li>
                 </Link>
-                <Link className="link" to="/Eat">
-                  <li>Eat</li>
+                <Link className="link" to="/Contact">
+                  <li>Contact</li>
                 </Link>
                 <Link className="link book_btn" to="/OurApartment">
                   <li >
@@ -36,6 +37,7 @@ function Header() {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route path="/OurApartment" component={OurApartment}></Route>
+          <Route path="/Contact" component={Contact}></Route>
         </Switch>
       </Router>
     </>
