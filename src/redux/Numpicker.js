@@ -38,7 +38,7 @@ function Numpicker() {
   return (
     <>
       <div className="NumPicker">
-        {man}
+        {man}<span>Adults</span>
         <div className="sort">
         <button>
             <FontAwesomeIcon onClick={man_up} icon={faSortUp} />
@@ -50,6 +50,7 @@ function Numpicker() {
       </div>
       <div className="NumPicker">
         {child}
+        <span>Kids</span>
         <div className="sort">
           <button>
             <FontAwesomeIcon onClick={child_up} icon={faSortUp} />
