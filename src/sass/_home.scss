@@ -35,8 +35,7 @@
       .InputFromTo {
         display: flex;
         input {
-          padding: 0 0px 0 10px;
-          margin-left: 20px;
+          padding: 10px 20px;
           border: 1px solid $bg;
           &:hover {
             border: 1px solid $green;
@@ -48,18 +47,16 @@
       }
       .NumPicker {
         display: flex;
-        width: 100px;
+        width: 180px;
         border: 1px solid $bg;
         font-size: 18px;
-        padding-left: 10px;
-        margin-left: 20px;
+        padding: 10px 10px;
         &:hover {
           border: 1px solid $green;
         }
         span {
           padding: 2px 0 0 5px;
           font-size: 15px;
-          color: $gray;
         }
         .sort {
           display: flex;
@@ -91,7 +88,7 @@
         color: $white;
         width: 200px;
         transition: 0.5s;
-        margin-left: 50px;
+        padding: 10px 20px;
         &:hover {
           background: $gray;
           color: $black;

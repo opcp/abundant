@@ -136,7 +136,7 @@
     .InputFromTo {
       display: flex;
       input {
-        padding: 0 10px;
+        padding: 10px 20px;
         border: 1px solid $bg;
         transition: 0.3s;
         &:hover {
@@ -149,11 +149,10 @@
     }
     .NumPicker {
       display: flex;
-      width: 30%;
+      width: 18.5%;
       border: 1px solid $bg;
       font-size: 18px;
-      padding-left: 10px;
-      height: 26px;
+      padding: 10px 20px;
       &:hover {
         border: 1px solid $green;
       }
@@ -190,9 +189,9 @@
       box-shadow: none;
       outline: 0;
       color: $white;
-      width: 200px;
+      width: 140px;
       transition: 0.5s;
-
+      padding: 10px 20px;
       &:hover {
         background: $gray;
         color: $black;
