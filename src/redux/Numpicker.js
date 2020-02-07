@@ -5,7 +5,7 @@ import { faSortDown, faSortUp } from "@fortawesome/free-solid-svg-icons";
 
 function Numpicker() {
   const man = useSelector(state => state.man);
-  const child = useSelector(state=>state.child)
+  const child = useSelector(state => state.child);
   const dispatch = useDispatch();
   const man_up = () => {
     dispatch({
@@ -28,7 +28,7 @@ function Numpicker() {
   };
 
   const child_down = () => {
-    if (child>= 1) {
+    if (child >= 1) {
       dispatch({
         type: "CHILD_DOWN"
       });
@@ -38,25 +38,26 @@ function Numpicker() {
   return (
     <>
       <div className="NumPicker">
-        {man}<span>Adults</span>
+        <span> {man} </span>
+        <span>Adults</span>
         <div className="sort">
-        <button>
+          <button>
             <FontAwesomeIcon onClick={man_up} icon={faSortUp} />
           </button>
           <button>
-          <FontAwesomeIcon onClick={man_down} icon={faSortDown} />
+            <FontAwesomeIcon onClick={man_down} icon={faSortDown} />
           </button>
         </div>
       </div>
       <div className="NumPicker">
-        {child}
+        <span> {child}</span>
         <span>Kids</span>
         <div className="sort">
           <button>
             <FontAwesomeIcon onClick={child_up} icon={faSortUp} />
           </button>
           <button>
-          <FontAwesomeIcon onClick={child_down} icon={faSortDown} />
+            <FontAwesomeIcon onClick={child_down} icon={faSortDown} />
           </button>
         </div>
       </div>
