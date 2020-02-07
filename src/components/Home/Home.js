@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../Footer/Footer";
 import Date from './Datepicker'
+import Num from '../../redux/Numpicker'
 function Header() {
   return (
     <>
@@ -12,50 +13,13 @@ function Header() {
       <div className="bg_title">
         <span>&nbsp; Welcome &nbsp; to &nbsp; Iceland</span>
       </div>
+     
       <Container className="Home_body">
         <Row className="body_booking">
-          <Col xs={12}></Col>
-        </Row>
-        <Row>
-          <Col className="body_txt">
-            <span className="body_title">A Home in the Heart of the City</span>
-            <span className="txt_line"></span>
-            <span className="txt_info">
-              Stay in a beautiful highrise in Ipanema just off the beach close
-              to many world-class cafes and restaurants. Enjoy Bossa Nova with a
-              cold beer!
-            </span>
-          </Col>
-        </Row>
-        <Row className="body_Introduction">
-          <Col className="Introduction_txt" xs={4}>
-            <span>Our</span>
-            <span>Apartment</span>
-            <span className="txt_line"></span>
-          </Col>
-          <Col className="Introduction_img" xs={8}>
-            <img src="https://static.wixstatic.com/media/05e3dc_daaec437e6874a2d943dd58eb83fa475.jpg/v1/fill/w_649,h_270,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_daaec437e6874a2d943dd58eb83fa475.webp" />
-          </Col>
-        </Row>
-        <Row className="body_Introduction">
-          <Col className="Introduction_txt" xs={4}>
-            <img src="https://static.wixstatic.com/media/05e3dc_914192924e1144bf9db5339e363d545d.jpg/v1/fill/w_330,h_280,al_c,q_80,usm_0.66_1.00_0.01/05e3dc_914192924e1144bf9db5339e363d545d.webp" />
-          </Col>
-          <Col className="Introduction_img" xs={8}>
-            <span>
-              The apartment is spacious with high ceilings, large windows, an
-              open balcony and a beautiful view of the beach. Stay cool with
-              central A/C and wind-down comfortably in the queen sized bedroom.
-            </span>
-            <a>BOOK NOW</a>
-          </Col>
-        </Row>
-      </Container>
-
-      <Container className="Home_body">
-        <Row className="body_booking">
-          <Col xs={12}>
+          <Col className="body_booking2" xs={12}>
          <Date/>
+         <Num/>
+         <button className='search_booking'>search</button>
           </Col>
         </Row>
         <Row>

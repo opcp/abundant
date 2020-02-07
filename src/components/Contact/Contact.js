@@ -10,7 +10,7 @@ function Contact() {
         <img src="https://i.picsum.photos/id/906/1920/650.jpg" />
       </div>
       <div className="contact_title">
-        <span>Contact Us</span>
+        <span>Contact &nbsp; Us</span>
       </div>
       <Container className="contact_body">
         <Row className="contact_row">

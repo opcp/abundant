@@ -3,7 +3,8 @@
 @import "./sass/header";
 @import "./sass/home";
 @import "./sass/footer";
-@import "./sass/Contact";
+@import "./sass/contact";
+@import "./sass/travel";
 
 * {
   margin: 0;
@@ -11,8 +12,8 @@
   text-decoration: none;
   outline: 0;
   list-style: none;
-  position: relative;
 }
 body {
+  position: relative;
   background: $bg;
 }

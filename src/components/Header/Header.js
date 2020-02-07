@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import Home from "../Home/Home";
 import OurApartment from "../OurApartment/OurApartment";
 import Contact from "../Contact/Contact";
+import Travel from '../Travel/Travel'
 function Header() {
   return (
     <>
@@ -25,7 +26,7 @@ function Header() {
                   <li>Contact</li>
                 </Link>
                 <Link className="link book_btn" to="/OurApartment">
-                  <li >
+                  <li>
                     <button href="#">Book</button>
                   </li>
                 </Link>
@@ -37,6 +38,7 @@ function Header() {
         <Switch>
           <Route exact path="/" component={Home}></Route>
           <Route path="/OurApartment" component={OurApartment}></Route>
+          <Route path="/travel" component={Travel}></Route>
           <Route path="/Contact" component={Contact}></Route>
         </Switch>
       </Router>

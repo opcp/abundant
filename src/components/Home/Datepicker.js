@@ -18,6 +18,8 @@ export default class Example extends React.Component {
     };
   }
 
+  
+
   showFromMonth() {
     const { from, to } = this.state;
     if (!from) {
@@ -31,10 +33,12 @@ export default class Example extends React.Component {
   handleFromChange(from) {
     // Change the from date and focus the "to" input field
     this.setState({ from });
+    console.log(from)
   }
 
   handleToChange(to) {
     this.setState({ to }, this.showFromMonth);
+   
   }
 
   render() {
@@ -44,7 +48,6 @@ export default class Example extends React.Component {
       <>
        
         <div className="InputFromTo">
-     
           <DayPickerInput
             value={from}
             placeholder="check in"
@@ -60,7 +63,7 @@ export default class Example extends React.Component {
               onDayClick: () => this.to.getInput().focus()
             }}
             onDayChange={this.handleFromChange}
-          />{" "}
+          />
           <span className="InputFromTo-to">
             <DayPickerInput
               ref={el => (this.to = el)}
@@ -88,10 +91,12 @@ export default class Example extends React.Component {
   }
   .InputFromTo .DayPicker-Day {
     border-radius: 0 !important;
+    
   }
   .InputFromTo .DayPicker-Day--start {
     border-top-left-radius: 50% !important;
     border-bottom-left-radius: 50% !important;
+    position:absolute
   }
   .InputFromTo .DayPicker-Day--end {
     border-top-right-radius: 50% !important;
@@ -99,6 +104,7 @@ export default class Example extends React.Component {
   }
   .InputFromTo .DayPickerInput-Overlay {
     width: 550px;
+    position:'absolute'
   }
   .InputFromTo-to .DayPickerInput-Overlay {
     margin-left: -198px;

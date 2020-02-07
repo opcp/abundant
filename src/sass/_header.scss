@@ -18,7 +18,9 @@
         width: calc(100% / 5);
         text-decoration: none;
         color: $white;
-        transition: 0.8s;
+        transition: 0.7s;
+        font-weight: 700;
+        text-shadow: $gray 0.1em 0.1em 0.2em;
         &:hover {
           color: $black;
         }
@@ -32,6 +34,7 @@
           height: 31px;
           color: $white;
           transition: 0.8s;
+          font-weight: 700;
           &:hover {
             color: $gray;
             background: $white;
