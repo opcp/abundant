@@ -6,15 +6,15 @@ import Num from '../../redux/Numpicker'
 function Header() {
   return (
     <>
-      <div className="bg_img">
+      <div className="travel_img">
         <img src="https://i.picsum.photos/id/866/1920/650.jpg" />
       </div>
 
-      <div className="bg_title">
+      <div className="travel_title">
         <span>&nbsp; Welcome &nbsp; to &nbsp; Iceland</span>
       </div>
      
-      <Container className="Home_body">
+      <Container className="travel_body">
         <Row className="body_booking">
           <Col className="body_booking2" xs={12}>
          <Date/>

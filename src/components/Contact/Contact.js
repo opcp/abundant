@@ -6,13 +6,13 @@ import Map from './map'
 function Contact() {
   return (
     <>
-      <div className="contact_img">
+      <div className="travel_img">
         <img src="https://i.picsum.photos/id/906/1920/650.jpg" />
       </div>
-      <div className="contact_title">
+      <div className="travel_title">
         <span>Contact &nbsp; Us</span>
       </div>
-      <Container className="contact_body">
+      <Container className="travel_body">
         <Row className="contact_row">
           <Col className="contact_txt" xs={4}>
             <span className="contact_aside">Ask Us </span>

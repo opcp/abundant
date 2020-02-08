@@ -51,7 +51,7 @@ function Travel() {
             </a>
           </Col>
         </Row>
-        <Row >
+        <Row className="travel_row" >
           <Col className='bot_img' xs={12}>
             <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_720,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/ut3ap6qimmaddgyzv8ir/%E5%86%B0%E5%B3%B6%E9%BB%83%E9%87%91%E5%9C%88%E8%BF%BD%E5%B0%8B%E6%A5%B5%E5%85%89%E4%B8%80%E6%97%A5%E9%81%8A.jpg" />
           </Col>

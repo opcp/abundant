@@ -9,9 +9,9 @@ function Header() {
   return (
     <>
       <Router>
-        <Container className="Home_header">
+        <Container  className="Home_header">
           <Row className="nav_row d-flex ">
-            <Col className="d-flex " xs={12}>
+            <Col className="d-flex nav_col" xs={12}>
               <ul className="navbar_ul">
                 <Link className="link" to="/">
                   <li>Home</li>

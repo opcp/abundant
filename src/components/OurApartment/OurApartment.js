@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "../Footer/Footer";
-import Date from '../Home/Datepicker'
-import Num from '../../redux/Numpicker'
+import Date from "../Home/Datepicker";
+import Num from "../../redux/Numpicker";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faWifi,
@@ -18,13 +18,13 @@ import {
 function OurApartment() {
   return (
     <>
-      <div className="room_img">
+      <div className="travel_img">
         <img src="https://i.picsum.photos/id/311/1920/650.jpg" />
       </div>
-      <div className="room_title_txt">
+      <div className="travel_title">
         <span>Our Apartment</span>
       </div>
-      <Container className="room_body">
+      <Container className="travel_body">
         <Row className="room_row">
           <Col className="room_col" xs={12}>
             <span className="room_aside">Our Rooms</span>
@@ -54,25 +54,25 @@ function OurApartment() {
             </ul>
             <ul className="room_icon">
               <li className="first">
-                <FontAwesomeIcon title='wifi' icon={faWifi} />
+                <FontAwesomeIcon title="wifi" icon={faWifi} />
               </li>
               <li>
-                <FontAwesomeIcon title='TV' icon={faTv} />
+                <FontAwesomeIcon title="TV" icon={faTv} />
               </li>
               <li>
-                <FontAwesomeIcon title='mini bar' icon={faGlassMartiniAlt} />
+                <FontAwesomeIcon title="mini bar" icon={faGlassMartiniAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='phone' icon={faPhoneAlt} />
+                <FontAwesomeIcon title="phone" icon={faPhoneAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='kitchen' icon={faUtensils} />
+                <FontAwesomeIcon title="kitchen" icon={faUtensils} />
               </li>
               <li>
-                <FontAwesomeIcon title='shower' icon={faShower} />
+                <FontAwesomeIcon title="shower" icon={faShower} />
               </li>
               <li>
-                <FontAwesomeIcon title='bath' icon={faBath} />
+                <FontAwesomeIcon title="bath" icon={faBath} />
               </li>
             </ul>
           </Col>
@@ -98,23 +98,23 @@ function OurApartment() {
               <li> Beds: 1 Double(s)</li>
             </ul>
             <ul className="room_icon">
-            <li className="first">
-                <FontAwesomeIcon title='wifi' icon={faWifi} />
+              <li className="first">
+                <FontAwesomeIcon title="wifi" icon={faWifi} />
               </li>
               <li>
-                <FontAwesomeIcon title='TV' icon={faTv} />
+                <FontAwesomeIcon title="TV" icon={faTv} />
               </li>
               <li>
-                <FontAwesomeIcon title='mini bar' icon={faGlassMartiniAlt} />
+                <FontAwesomeIcon title="mini bar" icon={faGlassMartiniAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='phone' icon={faPhoneAlt} />
+                <FontAwesomeIcon title="phone" icon={faPhoneAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='kitchen' icon={faUtensils} />
+                <FontAwesomeIcon title="kitchen" icon={faUtensils} />
               </li>
               <li>
-                <FontAwesomeIcon title='shower' icon={faShower} />
+                <FontAwesomeIcon title="shower" icon={faShower} />
               </li>
             </ul>
           </Col>
@@ -139,29 +139,29 @@ function OurApartment() {
               <li> Beds: 1 King(s)</li>
             </ul>
             <ul className="room_icon">
-            <li className="first">
-                <FontAwesomeIcon title='wifi' icon={faWifi} />
+              <li className="first">
+                <FontAwesomeIcon title="wifi" icon={faWifi} />
               </li>
               <li>
-                <FontAwesomeIcon title='TV' icon={faTv} />
+                <FontAwesomeIcon title="TV" icon={faTv} />
               </li>
               <li>
-                <FontAwesomeIcon title='mini bar' icon={faGlassMartiniAlt} />
+                <FontAwesomeIcon title="mini bar" icon={faGlassMartiniAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='phone' icon={faPhoneAlt} />
+                <FontAwesomeIcon title="phone" icon={faPhoneAlt} />
               </li>
               <li>
-                <FontAwesomeIcon title='kitchen' icon={faUtensils} />
+                <FontAwesomeIcon title="kitchen" icon={faUtensils} />
               </li>
               <li>
-                <FontAwesomeIcon title='shower' icon={faShower} />
+                <FontAwesomeIcon title="shower" icon={faShower} />
               </li>
               <li>
-                <FontAwesomeIcon title='bath' icon={faBath} />
+                <FontAwesomeIcon title="bath" icon={faBath} />
               </li>
               <li>
-                <FontAwesomeIcon title='work space' icon={faBriefcase} />
+                <FontAwesomeIcon title="work space" icon={faBriefcase} />
               </li>
             </ul>
           </Col>

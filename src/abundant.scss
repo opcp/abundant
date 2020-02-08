@@ -6,6 +6,7 @@
 @import "./sass/travel";
 @import "./sass/contact_text";
 @import "./sass/apartment";
+@import "./sass/RWD";
 
 * {
   margin: 0;
@@ -15,6 +16,5 @@
   list-style: none;
 }
 body {
-  position: relative;
   background: $bg;
 }
