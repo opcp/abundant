@@ -1,6 +1,5 @@
 .Home_header {
-  max-width: $main;
-  width: 100%;
+  max-width: $all;
   margin: 0 auto;
   padding: 0;
   position: absolute;
@@ -31,8 +30,6 @@
         transition: 0.7s;
         font-weight: 700;
         text-shadow: $gray 0.1em 0.1em 0.2em;
-        li {
-        }
         &:hover {
           color: $black;
         }

@@ -1,34 +1,35 @@
 .wrap {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: auto;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  height: 100vh;
+  left: 0;
+  top: 0;
   position: relative;
   .travel_img {
+    position: fixed;
     img {
-      max-width: $all;
       width: 100%;
+      height: 600px;
     }
   }
-
   .travel_title {
     max-width: $main;
     width: 100%;
     font-size: 65px;
     color: $white;
     position: absolute;
+    top: 30%;
+    left: 0%;
+    margin: 0 auto;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     padding-right: 50px;
     font-weight: 700;
     text-shadow: $gray 0.1em 0.1em 0.2em;
   }
   .travel_body {
     position: absolute;
-    top: 90%;
+    top: 60%;
     left: 20%;
     background: $white;
     display: flex;
@@ -80,8 +81,6 @@
         }
         .message {
           height: 150px;
-        }
-        a {
         }
       }
       .bot_img {
