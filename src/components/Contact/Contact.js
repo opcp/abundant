@@ -6,6 +6,7 @@ import Map from './map'
 function Contact() {
   return (
     <>
+    <section className="wrap">
       <div className="travel_img">
         <img src="https://i.picsum.photos/id/906/1920/650.jpg" />
       </div>
@@ -45,6 +46,7 @@ function Contact() {
         </Row>
         <Footer />
       </Container>
+      </section>
     </>
   );
 }
