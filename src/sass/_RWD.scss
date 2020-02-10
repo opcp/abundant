@@ -212,6 +212,31 @@
           padding: 10px;
         }
       }
+      .body_txt {
+        .txt_info {
+          width: 450px;
+        }
+      }
+      .body_Introduction {
+        .Introduction_txt {
+          img {
+            height: 100%;
+          }
+        }
+        .Introduction_img {
+          img {
+          }
+          span {
+            width: 100%;
+            padding: 10px 20px;
+          }
+        }
+      }
+      .view_map {
+        span {
+          width: 450px;
+        }
+      }
       .room_row {
         flex-direction: column;
         align-items: center;
