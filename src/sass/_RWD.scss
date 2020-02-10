@@ -51,6 +51,22 @@
     }
   }
 }
+@media (max-width: 1199px) {
+  .Home_header {
+    left: 21.5px;
+  }
+  .wrap {
+    .travel_body {
+      left: 21.5px;
+      .room_info {
+        padding-left: 50px;
+      }
+      .room_price {
+        padding: 0;
+      }
+    }
+  }
+}
 
 @media (max-width: 1024px) {
   .Home_header {
@@ -59,6 +75,12 @@
   .wrap {
     .travel_body {
       left: 23.5px;
+      .room_info {
+        padding-left: 50px;
+      }
+      .room_price {
+        padding: 0;
+      }
     }
   }
 }
