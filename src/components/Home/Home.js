@@ -8,7 +8,7 @@ function Header() {
     <>
       <section className="wrap">
         <div className="travel_img">
-          <img src="https://i.picsum.photos/id/866/1920/650.jpg" />
+          <img src={require("../../image/866.jpg")} alt="Background" />
         </div>
 
         <div className="travel_title">

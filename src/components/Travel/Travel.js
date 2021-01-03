@@ -5,9 +5,12 @@ import { Container, Row, Col } from "react-bootstrap";
 function Travel() {
   return (
     <>
-      <section className='wrap'>
+      <section className="wrap">
         <div className="travel_img">
-          <img src="https://i.picsum.photos/id/1001/1920/650.jpg" />
+          <img
+            src={require("../../image/landscape-5272817_1920.jpg")}
+            alt="Background"
+          />
         </div>
         <div className="travel_title">
           <span>Travel And Life</span>

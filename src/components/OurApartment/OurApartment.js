@@ -12,7 +12,7 @@ import {
   faTv,
   faUtensils,
   faGlassMartiniAlt,
-  faBriefcase
+  faBriefcase,
 } from "@fortawesome/free-solid-svg-icons";
 
 function OurApartment() {
@@ -20,7 +20,10 @@ function OurApartment() {
     <>
       <section className="wrap">
         <div className="travel_img">
-          <img src="https://i.picsum.photos/id/311/1920/650.jpg" />
+          <img
+            src={require("../../image/floor-2615218_1920.jpg")}
+            alt="Background"
+          />
         </div>
         <div className="travel_title">Our Apartment</div>
         <Container className="travel_body">
