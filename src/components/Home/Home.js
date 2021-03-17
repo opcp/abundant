@@ -10,7 +10,7 @@ function Header() {
         <div className="travel_img">
           <img src={require("../../image/866.jpg")} alt="Background" />
         </div>
-
+  
         <div className="travel_title">
           <span>&nbsp; Welcome &nbsp; to &nbsp; Iceland</span>
         </div>
